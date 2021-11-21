@@ -157,6 +157,7 @@ font-family: sans-serif;
 border-radius: 50%;
 font-size: 30px;
 color: var(--gpa__Text_color_light);
+color: var(--social-icon-bg);
 
 
 
@@ -169,6 +170,14 @@ color: var(--gpa__Text_color_light);
     
     
     }
+
+    
+.container .contactinfo .box .socialmedia-icon:hover{
+  
+ color: var(--gpa__primary_color);
+  
+  
+  }
 
 .container .contactinfo .box .text{
     display: flex;
